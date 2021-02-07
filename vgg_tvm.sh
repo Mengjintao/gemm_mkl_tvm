@@ -1,5 +1,5 @@
 make
-cp sgemm_align sgemm_host.out 
+#cp sgemm_align sgemm_host.out 
 export KMP_AFFINITY=compact,1,0,granularity=fine
 
 echo "conv1_1"
